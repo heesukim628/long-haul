@@ -31,5 +31,84 @@
 @media only screen and (min-width: 1200px) {
 	@import "breakpoints/1200up";
 }
+@media only screen and (min-width: 1000px) {
+    .post h1, .post h2, .post h3, .post h4, .post h5, .post h6, .post p, .post ul, .post ol, .post dl, .post .pageTitle {
+		width: 90%;
+		float: none;
+		margin: 0 2rem 2rem;
+		
+    }
+}
 
+@media only screen and (min-width: 800px){
+	.post h1, .post h2, .post h3, .post h4, .post h5, .post h6, .post p, .post ul, .post ol, .post dl, .post .pageTitle {
+    width: 90%;
+    float: none;
+    margin: 0 2rem 2rem;
+	}
+}
+
+
+.form-container {
+    width: 80%; /* Set the width to 80% */
+    margin: 50px auto; /* Center-align the element */
+}
+
+.form-control {
+    width: 100%; /* Set the width to 80% */
+    margin: 0 auto; /* Center-align the element */
+}
+
+
+.logo {
+    color: white; /* Set font color to white */
+    text-decoration: none; /* Remove underline */
+}
+
+.wide_img{
+	width: 100%;
+	padding: 5px;
+}
+.about_intro{
+	margin: 5px;
+	padding: 5px;
+}
+
+/* Hide the default radio buttons */
+input[type="radio"] {
+    display: none;
+  }
+  
+  /* Style the custom radio buttons */
+  input[type="radio"] + label {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    padding-left: 30px; /* Adjust as needed */
+    margin-right: 10px; /* Adjust as needed */
+  }
+  
+  input[type="radio"] + label:before {
+    content: "";
+    display: inline-block;
+    width: 20px; /* Size of the radio button */
+    height: 20px; /* Size of the radio button */
+    border: 2px solid #ccc; /* Border color */
+    border-radius: 50%; /* Make it circular */
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  /* Style the checked state of the radio buttons */
+  input[type="radio"]:checked + label:before {
+    background-color: #007bff; /* Color when selected */
+  }
+  
+  /* Optional: Add hover effect */
+  input[type="radio"] + label:hover:before {
+    border-color: #007bff; /* Border color on hover */
+  }
+  
 // If IE support is needed you can add them here or create another stylesheet for specific IE fixes

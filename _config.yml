@@ -1,14 +1,15 @@
-title: Long Haul
-description: Long Form Jekyll theme built with SASS
+title: Summer Research Training Program in Biomedical Big Data Science
+description: Summer Internship Page by Ma'ayan Lab
 
 url: https://long-haul.netlify.app
 # Only necessary when hosting your site in a sub-directory. Project sites hosted on GitHub Pages are the common use-case of this variable.
-baseurl: # Ex: /project-page
+baseurl: #/project-page
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
 
-# Header Option
-# header: large
+
+#Header Option
+header: large
 
 sass:
     style: compressed
@@ -23,19 +24,17 @@ navigation:
       url: /index.html
     - title: About
       url: /about
-    - title: Contact
-      url: /contact
+    - title: Application
+      url: /application
 
 social:
-    github: brianmaierjr
     twitter: brianmaierjr
     facebook: brianmaierjr
     email: brimaidesigns@gmail.com
     linkedin: brianmaierjr
     youtube: RickAstleyYT
-    tumblr: i-am-a-fish
 
-google_analytics: "UA-58263416-1"
+# google_analytics: "UA-58263416-1"
 
 disqus:
     shortname: brianmaierjr

@@ -1,36 +1,47 @@
 ---
 layout: default
-title: Long Haul
+title: Summer Research Training Program in Biomedical Big Data Science
 ---
 
 <div class="home" id="home">
-	<h1 class="pageTitle">Recent Posts</h1>
-	<div class="posts noList">
-		{%- for post in paginator.posts -%}
-		<article>
-			<span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
-			<h3>
-				<a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-			</h3>
-			<p>
-				{%- if post.description -%}{{ post.description }}{%- else -%}{{
-				post.excerpt | strip_html }}{%- endif -%}
-			</p>
-		</article>
-		{%- endfor -%}
-	</div>
-	<!-- Pagination links -->
-	<div class="pagination">
-		{%- if paginator.previous_page -%}
-		<a
-			href="{{ paginator.previous_page_path | relative_url }}"
-			class="previous button__outline"
-			>Newer Posts</a
-		>
-		{%- endif -%} {%- if paginator.next_page -%}
-		<a href="{{ paginator.next_page_path | relative_url }}" class="next button__outline"
-			>Older Posts</a
-		>
-		{%- endif -%}
+
+	<div>
+		<h2>Summer Research Program in Biomedical Big Data Science</h2>
+		<h3>Program Dates: June 3 – August 9, 2024</h3>
+
+		<p>The Ma’ayan Laboratory’s <b>Summer Research Training Program in Biomedical Big Data Science</b> is a research intensive ten-week training program for undergraduate and master’s students interested in participating in cutting edge research projects aimed at solving data-intensive biomedical problems. Summer fellows training in the Ma’ayan Laboratory conduct faculty-mentored independent research projects in the following areas: <b>data harmonization, machine learning, cloud computing and dynamic data visualization</b>.</p>
+
+		<h4>Eligibility Requirements</h4>
+		<p>To be considered for this program, applicants must be:</p>
+		<ul className="position-list">
+			<li>U.S. citizen or U.S. permanent resident</li>
+			<li>Undergraduate or master’s student in good academic standing</li>
+			<li>Available to work <b>full-time</b> (40 hours per week) on their research project in the Ma’ayan Laboratory and take part in all program activities (e.g., weekly meetings, enrichment lectures, and the <a href="https://www.youtube.com/playlist?list=PLfq4yYrYksVi1bKITzXgmTSFVlkRAZS2H">project presentation session)</a>.</li>
+		</ul>
+
+		<h4>Benefits</h4>
+		<ul className="position-list">
+			<li>Direct research experience with projects aimed at solving data-intensive biomedical problems.</li>
+			<li>Summer fellows training in the Ma’ayan Laboratory will earn a <b>$8,000 salary for the ten-week training period</b>. The salary is subject to all federal, state, and local taxes.</li>
+			<li>Interaction with computational experts in the <a href="https://icahn.mssm.edu/research/bioinformatics">Center</a> and <a href="members">members of the Ma’ayan Laboratory</a> through weekly meetings, enrichment lectures, and a <a href="https://www.youtube.com/playlist?list=PLfq4yYrYksVi1bKITzXgmTSFVlkRAZS2H">project presentation session</a>.</li>
+		</ul>
+
+		<h4>Who Should Apply?</h4>
+		<ul className="position-list">
+			<li>Students majoring in Computer Science, Informatics, Mathematics, Statistics, Physics, Engineering, Chemistry/Chemical Sciences or Biological Sciences and have an interest in Biomedical Big Data Science.</li>
+			<li>Members of all underrepresented groups are strongly encouraged to apply.</li>
+		</ul>
+
+		<h4>How to Apply</h4>
+		<ul className="position-list">
+			<li>Application Deadline: <b>February 1, 2024 at 5:00 PM Eastern Time</b></li>
+			<li>Submit an <a href="/application/">online application form</a></li>
+			<li>E-mail your resume and an unofficial copy of your school transcripts in PDF format to Sherry Jenkins, Program Co-Director at <a href="mailto:bd2k.lincs.training@gmail.com">bd2k.lincs.training@gmail.com</a>.</li>
+			<li>Please have your recommender email a letter of recommendation on your behalf directly to Sherry Jenkins, Program Co-Director at  <a href="mailto:bd2k.lincs.training@gmail.com">bd2k.lincs.training@gmail.com</a>.</li>
+		</ul>
+
+
+
+
 	</div>
 </div>
